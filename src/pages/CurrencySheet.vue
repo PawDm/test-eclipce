@@ -7,7 +7,7 @@
       <TransitionGroup tag="ul" name="fade" class="currency-sheet__valutes">
         <valute-item
           v-for="valute in filtredValutes"
-          :key="valute.id"
+          :key="valute"
           :valute="valute"
         />
       </TransitionGroup>
@@ -61,6 +61,6 @@ export default {
   transform: translateX(30px);
 }
 .fade-leave-active {
-  transition all .7s ease
+  transition all .3s ease
 }
 </style>

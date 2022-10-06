@@ -1,5 +1,5 @@
 <template>
-  <li class="valute-item">
+  <li class="valute-item" key="">
     <div class="valute-item__container">
       <span class="growth" :class="growth"></span>
       <span class="code">{{ `${valute.NumCode} ${valute.CharCode}` }}</span>
